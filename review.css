@@ -1,0 +1,335 @@
+html {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.body {
+  background-color: hsl(210, 46%, 95%);
+  margin: 60 20 60 20;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 30px;
+}
+
+.gridItemDaniel {
+  background-color: hsl(263, 55%, 52%);
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageDaniel {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+  border: hsl(263, 55%, 78%) 2px solid;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.names {
+  color: hsl(0, 0%, 81%);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.verified {
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
+  font-size: 11;
+}
+
+.titleDaniel {
+  color: hsl(0, 0%, 81%);
+  font-size: 20;
+  font-weight: 600;
+}
+
+.descriptionDaniel {
+  color: hsl(263, 55%, 78%);
+  font-weight: 600;
+  font-size: 14;
+}
+
+.gridItemJon {
+  background-color: hsl(217, 19%, 35%);
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.imageJon {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+}
+
+.titleJon {
+  color: hsl(0, 0%, 81%);
+  font-size: 20;
+  font-weight: 600;
+}
+.descriptionJon {
+  color: hsl(0, 0%, 50%);
+  font-weight: 600;
+  font-size: 14;
+}
+
+.gridItemJean {
+  background-color: white;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.imageJean {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+}
+
+.nameJean {
+  color: hsl(219, 29%, 14%);
+  font-weight: 500;
+}
+
+.titleJean {
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+  font-size: 20;
+}
+
+.descriptionJean {
+  color: hsl(0, 0%, 50%);
+  font-size: 14;
+  font-weight: 500;
+}
+
+.gridItemPat {
+  background-color: hsl(219, 29%, 14%);
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.imagePat {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+  border: hsl(263, 55%, 78%) 2px solid;
+}
+
+.titlePat {
+  color: hsl(0, 0%, 81%);
+  font-weight: 600;
+  font-size: 20;
+}
+
+.descriptionPat {
+  color: hsl(0, 0%, 50%);
+  font-size: 14;
+  font-weight: 500;
+}
+
+.gridItemKira {
+  background-color: hsl(0, 0%, 100%);
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.imageKira {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+}
+
+.nameKira {
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+}
+.titleKira {
+  color: hsl(219, 29%, 14%);
+  font-weight: 600;
+  font-size: 20;
+}
+
+.descriptionKira {
+  color: hsl(0, 0%, 50%);
+  font-size: 14;
+  font-weight: 500;
+}
+
+@media (min-width: 48em) {
+  .body {
+    background-color: hsl(210, 46%, 95%);
+    margin: 80 50 80 50;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+    column-gap: 30px;
+    height: 100%;
+  }
+
+  .gridItemDaniel {
+    background-color: hsl(263, 55%, 52%);
+    padding: 35px;
+    border-radius: 10px;
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .imageDaniel {
+    border-radius: 50%;
+    height: 3%;
+    width: 3%;
+    border: hsl(263, 55%, 78%) 2px solid;
+  }
+
+  .nameContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .names {
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
+
+  .titleDaniel {
+    color: hsl(0, 0%, 81%);
+    font-size: 24;
+    font-weight: 600;
+  }
+
+  .descriptionDaniel {
+    color: hsl(263, 55%, 78%);
+    font-weight: 600;
+    font-size: 18;
+    line-height: 1.8rem;
+  }
+  .imageJon {
+    border-radius: 50%;
+    height: 6%;
+    width: 6%;
+  }
+
+  .titleJon {
+    color: hsl(0, 0%, 81%);
+    font-size: 24;
+    font-weight: 600;
+  }
+  .descriptionJon {
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+    font-size: 18;
+    line-height: 1.8rem;
+  }
+
+  .gridItemJean {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .imageJean {
+    border-radius: 50%;
+    height: 6%;
+    width: 6%;
+  }
+
+  .titleJean {
+    color: hsl(219, 29%, 14%);
+    font-weight: 600;
+    font-size: 36;
+    padding-bottom: 20px;
+  }
+
+  .descriptionJean {
+    color: hsl(0, 0%, 50%);
+    font-size: 18;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+
+  .gridItemPat {
+    background-color: hsl(219, 29%, 14%);
+    padding: 35px;
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .imagePat {
+    border-radius: 50%;
+    height: 3%;
+    width: 3%;
+    border: hsl(263, 55%, 78%) 2px solid;
+  }
+
+  .titlePat {
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+    font-size: 24;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+
+  .descriptionPat {
+    color: hsl(0, 0%, 50%);
+    font-size: 18;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+
+  .gridItemKira {
+    background-color: hsl(0, 0%, 100%);
+    padding: 35px;
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .imageKira {
+    border-radius: 50%;
+    height: 6%;
+    width: 6%;
+  }
+
+  .nameKira {
+    color: hsl(219, 29%, 14%);
+    font-weight: 600;
+  }
+  .titleKira {
+    color: hsl(219, 29%, 14%);
+    font-weight: 600;
+    font-size: 28;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .descriptionKira {
+    color: hsl(0, 0%, 50%);
+    font-size: 20;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding-right: 20px;
+  }
+}
